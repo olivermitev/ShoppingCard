@@ -221,6 +221,8 @@ namespace ShoppingCard.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
+        
+
         // GET: Admin/Pages/EditSidebar
         [HttpGet]
         public ActionResult EditSidebar()
